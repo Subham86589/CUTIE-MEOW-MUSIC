@@ -17,13 +17,14 @@ async def must_join_channel(app: Client, msg: Message):
             await app.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = "https://t.me/" + MUST_JOIN
+                link = "https://t.me/BILLA_GANG_NTWK" + MUST_JOIN
             else:
                 chat_info = await app.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://graph.org/file/561c8a1c1f0dc6a5a7c23.jpg", caption=f"๏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
+                    photo="https://graph.org/file/a602e8bd957ba012313cf.jpg", caption=f"𝙏𝙊 𝙎𝙏𝘼𝙍𝙏 𝙏𝙃𝙀 𝘽𝙊𝙏💌 𝙐 𝙈𝙐𝙎𝙏 𝘽𝙀 𝘼 𝘽𝙄𝙇𝙇𝘼 𝙇𝙊𝙑𝙀𝙍 𝘼𝙉𝘿 𝙈𝙐𝙎𝙏 𝙅𝙊𝙄𝙉 𝘽𝙄𝙇𝙇𝘼 𝙂𝘼𝙉𝙂⚡
+𝘼𝙊𝙊 𝙊𝙍 𝙈𝙀𝙊𝙒 𝙈𝙀𝙊𝙒 𝙆𝙍𝙊 ❤ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ [๏sᴜᴘᴘᴏʀᴛ๏]({link}) ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
