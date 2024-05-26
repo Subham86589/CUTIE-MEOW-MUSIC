@@ -21,7 +21,7 @@ from DAXXMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
 from DAXXMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "7009586066:AAGANidKICrZYTIP-3B-WCS9j9Kht2z-T7s")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pele92186:crA3W8U21XZkdhGb@cluster0.sxc3hm8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 STRING_SESSION = getenv("STRING_SESSION", "BQGI7L0AghDHe_-7YG5gloSCMKlsp0Xfqznyed-GBFRwJJRgYMBXMr0tE8Hly3Hchmni1MLrS2QJ7TE6NlvbwgTmaYi2ZymJrYuuIUh2eb5mYUBS4Y4yAnxKaZMV6jF_Rv56Zxh963MXIyOhOmRAkXC3E2duXt5E2Nf6aSi4AyPGgXl0Y3I8AnqM7g0a8jMfNm-zJyvdkdRM7bD7hlZEcwsZkRHX164KOIsmkeaOVQgqySXKP_PrDJqqk496WyYj6lnZNe3vqJzhc3dwZJH9MJpG_aq-X4FhwQEhkm0r0jNTNt3IlA5JqcTLCYpQXeVPavlRoes5o9cR8109KDHQVBr2EMOhvgAAAAGhHOO_AA")
 from dotenv import load_dotenv
 
